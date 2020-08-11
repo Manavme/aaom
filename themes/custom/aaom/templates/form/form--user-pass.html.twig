@@ -1,0 +1,30 @@
+{#
+/**
+ * @file
+ * Default theme implementation for a 'form' element.
+ *
+ * Available variables
+ * - attributes: A list of HTML attributes for the wrapper element.
+ * - children: The child elements of the form.
+ *
+ * @see template_preprocess_form()
+ *
+ * @ingroup themeable
+ */
+#}
+<div class="mt-2 col-md-10 col-lg-10 user-form">
+	<h3>Request new password</h3>
+	<form{{attributes.removeClass('user-pass').removeAttribute('id')}}>
+		{{ children }}
+	</form>
+	<div>
+		{% block form_footer %}
+			<hr>
+			<p class="mt-4">
+				Don't have an account? |
+				<a href="{{ path('user.register') }}">{{ 'Sign Up'|t }}</a>
+				<a class="float-right" href="{{ path('user.login') }}">{{ 'Already a member'|t }}</a>
+			</p>
+		{% endblock %}
+	</div>
+</div>
