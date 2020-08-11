@@ -13,7 +13,8 @@
         "drupal/block_class": "^1.2",
         "drupal/devel": "^4.0",
         "drupal/fontawesome": "^2.17",
-        "civicrm/civicrm-core": "5.28.0"
+        "civicrm/civicrm-core": "5.28.0",
+        "drupal/backup_migrate": "^4.1"
     },
     "replace": {
         "drupal/core": "^8.7"
