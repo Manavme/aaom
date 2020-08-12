@@ -1,0 +1,31 @@
+uuid: a6d01bd9-41c2-437e-9c19-ad9e50c439f7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:edde0e9e-97a3-4305-b27b-3d00d27a15d0'
+  module:
+    - block_content
+    - system
+  theme:
+    - aaom
+id: otherlinks
+theme: aaom
+region: sidebar_second
+weight: -13
+provider: null
+plugin: 'block_content:edde0e9e-97a3-4305-b27b-3d00d27a15d0'
+settings:
+  id: 'block_content:edde0e9e-97a3-4305-b27b-3d00d27a15d0'
+  label: 'Other Links'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

@@ -1,0 +1,25 @@
+uuid: 74b8f3e0-18ea-4cf8-a771-851a80db4f33
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0cc5baf2-bc92-4620-b5ff-679ec1457485'
+  module:
+    - block_content
+  theme:
+    - aaom
+id: contactus
+theme: aaom
+region: top_header_form
+weight: 0
+provider: null
+plugin: 'block_content:0cc5baf2-bc92-4620-b5ff-679ec1457485'
+settings:
+  id: 'block_content:0cc5baf2-bc92-4620-b5ff-679ec1457485'
+  label: 'Contact us'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

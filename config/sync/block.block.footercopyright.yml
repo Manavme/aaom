@@ -1,0 +1,25 @@
+uuid: c39d265e-828c-4ef9-a269-faba5537fe3f
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b95b3c74-8890-4608-8ccf-8fe94dac840c'
+  module:
+    - block_content
+  theme:
+    - aaom
+id: footercopyright
+theme: aaom
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:b95b3c74-8890-4608-8ccf-8fe94dac840c'
+settings:
+  id: 'block_content:b95b3c74-8890-4608-8ccf-8fe94dac840c'
+  label: 'Footer copyright'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
