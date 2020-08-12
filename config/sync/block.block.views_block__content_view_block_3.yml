@@ -1,0 +1,30 @@
+uuid: 1b6b9d50-bbfe-4809-b0e3-5bf5cdacd94e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.content_view
+  module:
+    - system
+    - views
+  theme:
+    - aaom
+id: views_block__content_view_block_3
+theme: aaom
+region: sidebar_second
+weight: -15
+provider: null
+plugin: 'views_block:content_view-block_3'
+settings:
+  id: 'views_block:content_view-block_3'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: true
+    context_mapping: {  }

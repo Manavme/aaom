@@ -1,0 +1,20 @@
+uuid: c34a3332-d6ce-481c-8708-1b9c41a9a360
+langcode: en
+status: true
+dependencies:
+  theme:
+    - aaom
+_core:
+  default_config_hash: 13GQpeITIJsp1kyPniXtWZfyFH87vb1xxJCHifL4UeE
+id: aaom_local_actions
+theme: aaom
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,30 @@
+uuid: 2b304765-4bb4-4a96-8bc1-1183055d32cd
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: btW6TFHajhy7Eo6YUvdFiPh4TcPggo8GBXYctjV6zag
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access CiviMail subscribe/unsubscribe pages'
+  - 'access all custom data'
+  - 'access comments'
+  - 'access content'
+  - 'access devel information'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'access uploaded files'
+  - 'make online contributions'
+  - 'post comments'
+  - 'profile create'
+  - 'profile edit'
+  - 'profile view'
+  - 'register for events'
+  - 'search content'
+  - 'skip comment approval'
+  - 'use text format basic_html'
+  - 'view event info'
+  - 'view event participants'

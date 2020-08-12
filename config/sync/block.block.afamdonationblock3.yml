@@ -1,0 +1,35 @@
+uuid: a1249089-48ec-423f-b93c-61ca10420c75
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fabea7a6-1e55-4a4e-9201-d77cef44b2ba'
+  module:
+    - block_class
+    - block_content
+    - system
+  theme:
+    - aaom
+third_party_settings:
+  block_class:
+    classes: col-1
+id: afamdonationblock3
+theme: aaom
+region: breadcrumb
+weight: -8
+provider: null
+plugin: 'block_content:fabea7a6-1e55-4a4e-9201-d77cef44b2ba'
+settings:
+  id: 'block_content:fabea7a6-1e55-4a4e-9201-d77cef44b2ba'
+  label: 'AFAM - Donation block 3'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
