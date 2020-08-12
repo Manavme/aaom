@@ -1,5 +1,14 @@
 @import "global.scss";
 
+.content-block {
+  .cardbox {
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
+
 .sidebar {
   .block {
     background-color: transparent !important;
@@ -81,3 +90,4 @@
     }
   }
 }
+

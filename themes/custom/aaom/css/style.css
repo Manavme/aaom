@@ -9317,6 +9317,10 @@ footer hr {
   color: #336600; }
 
 /*# sourceMappingURL=style.css.map */
+.content-block .cardbox img {
+  width: 100%;
+  height: auto; }
+
 .sidebar .block {
   background-color: transparent !important;
   border-color: transparent !important; }
