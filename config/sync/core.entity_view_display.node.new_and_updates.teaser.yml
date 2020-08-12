@@ -1,0 +1,41 @@
+uuid: aa629b42-05fc-4d8c-9386-c45d22c5fc2c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.new_and_updates.body
+    - field.field.node.new_and_updates.field_image
+    - node.type.new_and_updates
+  module:
+    - image
+    - text
+    - user
+id: node.new_and_updates.teaser
+targetEntityType: node
+bundle: new_and_updates
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 1
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  field_image:
+    type: image
+    weight: 2
+    region: content
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

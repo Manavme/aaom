@@ -1,0 +1,39 @@
+uuid: 65d03bc7-b335-4303-8368-3ccaec451430
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.new_and_updates.body
+    - field.field.node.new_and_updates.field_image
+    - node.type.new_and_updates
+  module:
+    - image
+    - text
+    - user
+id: node.new_and_updates.default
+targetEntityType: node
+bundle: new_and_updates
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 102
+    label: inline
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

@@ -1,0 +1,25 @@
+uuid: 6031fc17-235e-4d60-8a1b-c7e63efeb555
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:298f38d1-5841-491f-b345-4caba5e5ceac'
+  module:
+    - block_content
+  theme:
+    - aaom
+id: followus
+theme: aaom
+region: footer_fourth
+weight: 0
+provider: null
+plugin: 'block_content:298f38d1-5841-491f-b345-4caba5e5ceac'
+settings:
+  id: 'block_content:298f38d1-5841-491f-b345-4caba5e5ceac'
+  label: 'Follow Us'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
