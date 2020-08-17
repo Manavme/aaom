@@ -1,8 +1,0 @@
-uuid: 7fda7810-8428-4271-8b8e-5999b5bc16e0
-langcode: en
-status: true
-dependencies: {  }
-id: footer-governance
-label: 'Footer Governance'
-description: ''
-locked: false
