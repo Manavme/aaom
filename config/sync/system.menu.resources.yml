@@ -1,8 +1,0 @@
-uuid: de19630b-7640-4e99-973f-7e8a7ec7c2f2
-langcode: en
-status: true
-dependencies: {  }
-id: resources
-label: Resources
-description: 'Resources Footer Menu'
-locked: false

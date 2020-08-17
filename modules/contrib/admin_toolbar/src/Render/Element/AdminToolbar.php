@@ -3,12 +3,8 @@
 namespace Drupal\admin_toolbar\Render\Element;
 
 use Drupal\Core\Menu\MenuTreeParameters;
-if (interface_exists('\Drupal\Core\Security\TrustedCallbackInterface')) {
-  interface TrustedCallbackInterface extends \Drupal\Core\Security\TrustedCallbackInterface {}
-  }
-else {
-  interface TrustedCallbackInterface {}
-}
+use Drupal\Core\Security\TrustedCallbackInterface;
+
 /**
  * Class AdminToolbar.
  *

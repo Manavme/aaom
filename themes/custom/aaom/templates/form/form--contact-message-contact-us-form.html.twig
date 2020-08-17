@@ -1,0 +1,49 @@
+{#
+/**
+ * @file
+ * Default theme implementation for a 'form' element.
+ *
+ * Available variables
+ * - attributes: A list of HTML attributes for the wrapper element.
+ * - children: The child elements of the form.
+ *
+ * @see template_preprocess_form()
+ *
+ * @ingroup themeable
+ */
+#}
+<div class="user-form">
+	<h2>Contact us</h2>
+	<form{{attributes.removeClass('user-pass').removeAttribute('id')}}>
+		{{ element.form_build_id }}
+		{{ element.form_token }}
+		{{ element.form_id }}
+
+		{{ element.messages }}
+		<div class="row">
+			<div class="col-lg-6">
+				<div class="form-group">
+					{{ element.field_first_name }}
+				</div>
+				<div class="form-group">
+					{{ element.field_last_name }}
+				</div>
+				<div class="form-group">
+					{{ element.field_email }}
+				</div>
+				<div class="form-group">
+					{{ element.subject }}
+				</div>
+			</div>
+			<div class="col-lg-6">
+				<div class="form-group">
+					{{ element.field_category }}
+				</div>
+				<div class="form-group">
+					{{ element.message }}
+				</div>
+			</div>
+		</div>
+		{{ element.actions }}
+	</form>
+</div>

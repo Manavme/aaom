@@ -1,8 +1,0 @@
-uuid: be2c1203-7bb0-4436-ae00-32b509197ba8
-langcode: en
-status: true
-dependencies: {  }
-id: governance
-label: Governance
-description: 'Governance Footer Menu'
-locked: false
